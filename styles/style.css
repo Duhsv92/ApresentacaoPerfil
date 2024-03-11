@@ -38,17 +38,17 @@ color : var(--cor-secundaria);
 }
 
 .cabecalho__menu__link {
+    display: flex;
+    flex-direction: initial;
     text-decoration: none;
     font-family: var(--fonte-secundaria);
     color: var(--cor-terciaria);
     font-weight: 600;
     font-size: 1.5rem;
-    
-    
-    
-
-    
+        
 }
+
+
 
 .cabecalho__menu__link:hover {
     color: var(--cor-secundaria);
